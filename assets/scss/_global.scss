@@ -1,0 +1,86 @@
+@import "./nav";
+@import "./vars";
+@import "./tabler-icons";
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&family=Poppins&display=swap");
+
+@mixin text-glow {
+  text-shadow: 0px 0 24px var(--primary-color);
+  color: var(--primary-color);
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--poppins);
+  color: var(--text-color);
+  background-color: var(--bg);
+}
+
+a {
+  color: var(--text-color);
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+.white-text {
+  color: white;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  align-self: center;
+  padding: 12px 24px;
+  border-radius: 50px;
+  box-shadow: 0px 5.1px 4.1px rgba(47, 47, 151, 0.035),
+    0px 14.1px 11.4px rgba(47, 47, 151, 0.05),
+    0px 34.1px 27.4px rgba(47, 47, 151, 0.065),
+    0px 113px 91px rgba(47, 47, 151, 0.1);
+
+  &.white-button {
+    background: white;
+    border: 1px solid var(--button-border-color);
+  }
+
+  &.jumbo-button {
+    padding: 16px 60px;
+
+    i {
+      font-size: 24px;
+    }
+  }
+}
+
+.section-title {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: var(--lexend);
+  margin-bottom: 20px;
+
+  span {
+    @include text-glow;
+  }
+}
+
+.section-margin {
+  margin-top: 120px;
+}
+
+.excerpt {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+}

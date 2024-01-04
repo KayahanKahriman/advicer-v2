@@ -113,8 +113,11 @@ add_action('after_setup_theme', 'yoda_setup');
 function yoda_scripts()
 {
   wp_enqueue_style('yoda-style', get_stylesheet_uri());
-  wp_enqueue_style('st', CSS_DIR . '/style.css');
-  wp_enqueue_script('jq-s', JS_DIR . '/jquery-3.4.0.slim.min.js', array(), '3.4.0', true);
+  wp_enqueue_style('swiper',  '//cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css');
+  wp_enqueue_style('flexgrid', CSS_DIR . '/flexgrid/flexgrid.css');
+  wp_enqueue_style('style', CSS_DIR . '/style.css');
+  wp_enqueue_script('swiper',  '//cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js', array(), '11.0.5', true);
+  wp_enqueue_script('global', JS_DIR . '/global.js', array(), '1.0.0', true);
 
   /**Contact page css & js */
 
