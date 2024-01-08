@@ -24,14 +24,33 @@ window.onload = function () {
       nextEl: ".carousel-next",
     },
     breakpoints: {
-      320: {
+      390: {
         slidesPerView: 1,
         spaceBetween: 20,
       },
-      640: {
+      728: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1170: {
         slidesPerView: 3,
         spaceBetween: 30,
       },
     },
+  });
+
+  // Revealing cards
+  const revealingCardButtons = document.querySelectorAll(
+    ".revealing-card button"
+  );
+  Array.from(revealingCardButtons).map((button) => {
+    const text = button.previousElementSibling;
+    const textOverlay = text.lastElementChild;
+
+    button.addEventListener("click", () => {
+      text.style.height = text.scrollHeight + "px";
+      textOverlay.style.display = "none";
+      button.style.display = "none";
+    });
   });
 };

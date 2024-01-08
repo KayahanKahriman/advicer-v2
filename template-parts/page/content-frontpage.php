@@ -5,7 +5,7 @@
         <div id="hero-grid">
           <h1 id="hero-title">The World's <span>Advice Application</span></h1>
           <p id="hero-text">Ask questions, share your experiences, expolore yourself, earn profit</p>
-          <img id="hero-image" src="<?php echo IMAGE_DIR; ?>/hero-img.png" alt="Advicer">
+          <img id="hero-image" class="d-none d-xl-block" src="<?php echo IMAGE_DIR; ?>/hero-img.png" alt="Advicer">
           <div id="hero-buttons">
             <a class="button white-button jumbo-button" href="#"><i class="ti ti-brand-google-play"></i>Google Play
               Store</a>
@@ -72,8 +72,8 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-6 col-12 mt-5 d-flex justify-content-end">
-        <img src="<?php echo IMAGE_DIR; ?>/phone.png" alt="">
+      <div class="col-xl-6 col-12 mt-5 d-flex justify-content-xl-end justify-content-center">
+        <img class="img-responsive" src="<?php echo IMAGE_DIR; ?>/phone.png" alt="">
       </div>
     </div>
   </div>
@@ -99,7 +99,10 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="icony-card">
-                <i class="ti ti-message-2-bolt icon"></i>
+                <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M26 26H66M26 46H56M51 71L26 86V71H16C12.0218 71 8.20644 69.4196 5.3934 66.6066C2.58035 63.7936 1 59.9782 1 56V16C1 12.0218 2.58035 8.20644 5.3934 5.3934C8.20644 2.58035 12.0218 1 16 1H76C79.9782 1 83.7936 2.58035 86.6066 5.3934C89.4196 8.20644 91 12.0218 91 16V43.5M81 61L71 76H91L81 91" stroke="#375BDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
                 <h6 class="title">Express Knowledge Network</h6>
                 <p class="text">
                   Advicer is an advice network application that facilitates your life and enables you to access
@@ -109,7 +112,10 @@
             </div>
             <div class="swiper-slide">
               <div class="icony-card">
-                <i class="ti ti-message-2-bolt icon"></i>
+                <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M56 61V71C56 72.3261 55.4732 73.5979 54.5355 74.5355C53.5979 75.4732 52.3261 76 51 76H16L1 91V41C1 39.6739 1.52678 38.4021 2.46447 37.4645C3.40215 36.5268 4.67392 36 6 36H16M91 56L76 41H41C39.6739 41 38.4021 40.4732 37.4645 39.5355C36.5268 38.5979 36 37.3261 36 36V6C36 4.67392 36.5268 3.40215 37.4645 2.46447C38.4021 1.52678 39.6739 1 41 1H86C87.3261 1 88.5979 1.52678 89.5355 2.46447C90.4732 3.40215 91 4.67392 91 6V56Z" stroke="#375BDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
                 <h6 class="title">Express Knowledge Network</h6>
                 <p class="text">
                   Advicer is an advice network application that facilitates your life and enables you to access
@@ -119,7 +125,10 @@
             </div>
             <div class="swiper-slide">
               <div class="icony-card">
-                <i class="ti ti-message-2-bolt icon"></i>
+                <svg width="97" height="92" viewBox="0 0 97 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M26 26H66M26 46H48.5M37.625 79.025L26 86V71H16C12.0218 71 8.20644 69.4196 5.3934 66.6066C2.58035 63.7936 1 59.9782 1 56V16C1 12.0218 2.58035 8.20644 5.3934 5.3934C8.20644 2.58035 12.0218 1 16 1H76C79.9782 1 83.7936 2.58035 86.6066 5.3934C89.4196 8.20644 91 12.0218 91 16V38.5M75 85.085L64.14 90.775C63.8177 90.9428 63.4551 91.0176 63.0928 90.9912C62.7304 90.9649 62.3825 90.8383 62.0879 90.6256C61.7933 90.413 61.5636 90.1227 61.4245 89.787C61.2854 89.4514 61.2423 89.0837 61.3 88.725L63.375 76.67L54.59 68.135C54.3278 67.8815 54.1421 67.5594 54.0542 67.2055C53.9663 66.8515 53.9796 66.48 54.0928 66.1333C54.2059 65.7865 54.4143 65.4786 54.694 65.2447C54.9738 65.0107 55.3137 64.8601 55.675 64.81L67.815 63.05L73.245 52.085C73.4074 51.7584 73.6577 51.4837 73.9677 51.2916C74.2778 51.0995 74.6352 50.9977 75 50.9977C75.3647 50.9977 75.7222 51.0995 76.0322 51.2916C76.3423 51.4837 76.5926 51.7584 76.755 52.085L82.185 63.05L94.325 64.81C94.6852 64.8618 95.0237 65.0134 95.3022 65.2476C95.5808 65.4818 95.7882 65.7893 95.9011 66.1352C96.014 66.4812 96.0278 66.8518 95.941 67.2052C95.8542 67.5587 95.6703 67.8807 95.41 68.135L86.625 76.67L88.695 88.72C88.7571 89.0794 88.7172 89.4489 88.5799 89.7867C88.4425 90.1245 88.2132 90.4171 87.9179 90.6311C87.6227 90.8451 87.2733 90.972 86.9095 90.9975C86.5458 91.0229 86.1821 90.9459 85.86 90.775L75 85.085Z" stroke="#375BDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
                 <h6 class="title">Express Knowledge Network</h6>
                 <p class="text">
                   Advicer is an advice network application that facilitates your life and enables you to access
@@ -179,10 +188,12 @@
           <button>+ Click for more</button>
         </div>
         <div class="revealing-card">
-          <h6 class="title">How to ask question in Advicer?</h6>
+          <h6 class="title">How to ask question in Advicer1?</h6>
           <p class="text">Advicer has two types of question models for individuals. You can learn what you are curious
-            about by
-            asking draft or private questions to the friends of the person you want to have information about.
+            about by asking draft or private questions to the friends of the person you want to have information about.
+            Moreover, both the person asking the question and the person answering will remain completely anonymous
+            and will not be visible to anyone. You Advicer has two types of question models for individuals. You can learn what you are curious
+            about by asking draft or private questions to the friends of the person you want to have information about.
             Moreover, both the person asking the question and the person answering will remain completely anonymous
             and will not be visible to anyone. You
             <span class="overlay"></span>

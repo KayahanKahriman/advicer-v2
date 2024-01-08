@@ -18,6 +18,10 @@ header {
     grid-template-columns: 60% 40%;
     grid-template-rows: auto auto auto;
     grid-template-areas: "hero-title hero-image" "hero-text hero-image" "hero-buttons hero-image";
+
+    @media (max-width: 480px) {
+      grid-template-areas: "hero-title hero-title" "hero-text hero-text" "hero-buttons hero-buttons";
+    }
   }
 
   #hero-title {
@@ -27,6 +31,10 @@ header {
     grid-area: hero-title;
     align-self: flex-end;
     white-space: nowrap;
+
+    @media (max-width: 480px) {
+      font-size: 10vw;
+    }
 
     span {
       display: block;
@@ -39,7 +47,10 @@ header {
     margin-top: 12px;
     grid-area: hero-text;
     line-height: 1.7;
-    max-height: 40px;
+
+    @media (max-width: 480px) {
+      font-size: 16px;
+    }
   }
 
   #hero-image {
@@ -54,6 +65,10 @@ header {
     display: flex;
     gap: 20px;
     grid-area: hero-buttons;
+
+    @media (max-width: 480px) {
+      flex-wrap: wrap;
+    }
   }
 }
 
@@ -116,7 +131,6 @@ header {
 
   .icon {
     font-size: 120px;
-    font-weight: 300;
     @include text-glow;
   }
 
