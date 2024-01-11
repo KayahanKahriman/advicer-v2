@@ -13,6 +13,14 @@ header {
   display: grid;
   place-items: center;
 
+  #hero-svg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    z-index: -1;
+  }
+
   #hero-grid {
     display: grid;
     grid-template-columns: 60% 40%;
