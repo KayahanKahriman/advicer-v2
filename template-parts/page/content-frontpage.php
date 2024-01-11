@@ -1,4 +1,19 @@
 <section id="hero">
+  <svg id="hero-svg" width=" 903" height="895" viewBox="0 0 903 895" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_f_463_151)">
+      <path class="stage" d="M765 303C765 415.114 674.114 506 562 506C449.886 506 359 415.114 359 303C359 190.886 449.886 100 562 100C674.114 100 765 190.886 765 303Z" fill="#FFCFFD" fill-opacity="0.5" />
+      <path class="stage" d="M803 592C803 704.114 712.114 795 600 795C487.886 795 397 704.114 397 592C397 479.886 487.886 389 600 389C712.114 389 803 479.886 803 592Z" fill="#FFD600" fill-opacity="0.1" />
+      <path class="stage" d="M592 346C592 481.862 481.862 592 346 592C210.138 592 100 481.862 100 346C100 210.138 210.138 100 346 100C481.862 100 592 210.138 592 346Z" fill="#001AFF" fill-opacity="0.1" />
+    </g>
+    <defs>
+      <filter id="filter0_f_463_151" x="0" y="0" width="903" height="895" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_463_151" />
+      </filter>
+    </defs>
+  </svg>
+
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12">
