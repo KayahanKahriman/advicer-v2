@@ -19,35 +19,15 @@
             </clipPath>
           </defs>
         </svg>
-        <p class="mt-3">© 2023 Advicer, Inc. All rights reserved</p>
+        <small class="mt-3 d-inline-block">© 2023 Advicer, Inc. All rights reserved</small>
       </div>
       <div class="col-xl-3 col-12">
         <h6>Product</h6>
-        <ul>
-          <li>
-            <a href="#">How to use Advicer?</a>
-          </li>
-          <li>
-            <a href="#">How to use Advicer?</a>
-          </li>
-          <li>
-            <a href="#">How to use Advicer?</a>
-          </li>
-        </ul>
+        <?php wp_nav_menu(array('container' => null, 'theme_location' => 'footer-nav-1')); ?>
       </div>
       <div class="col-xl-3 col-12">
         <h6>Company</h6>
-        <ul>
-          <li>
-            <a href="#">How to use Advicer?</a>
-          </li>
-          <li>
-            <a href="#">How to use Advicer?</a>
-          </li>
-          <li>
-            <a href="#">How to use Advicer?</a>
-          </li>
-        </ul>
+        <?php wp_nav_menu(array('container' => null, 'theme_location' => 'footer-nav-2')); ?>
       </div>
       <div class="col-xl-3 col-12">
         <h6>Social</h6>
