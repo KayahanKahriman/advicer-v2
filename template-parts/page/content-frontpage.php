@@ -47,42 +47,25 @@
           <div class="accordion-item">
             <h5 class="accordion-title"><i class="ti ti-question-mark"></i> Ask Questions</h5>
             <p class="accordion-content active">
-              In Advicer, you can guide people by sharing your good or bad advice instantly for a product, business,
-              house, car, property, company, hotel, restaurant, food, doctor, engineer, or you can save yourself from
-              a possible bad result by taking advantage of the advice given.
+              Find out what you’re curious about by asking the closest people to the person you want to get to know. And do all of this within the privacy rules of Advicer.
             </p>
           </div>
           <div class="accordion-item">
             <h5 class="accordion-title"><i class="ti ti-message-heart"></i> Give Advices</h5>
             <p class="accordion-content">
-              In Advicer, you can guide people by sharing your good or bad advice instantly for a product, business,
-              house, car, property, company, hotel, restaurant, food, doctor, engineer, or you can save yourself from
-              a possible bad result by taking advantage of the advice given. In Advicer, you can guide people by
-              sharing your good or bad advice instantly for a product, business, house, car, property, company, hotel,
-              restaurant, food, doctor, engineer, or you can save yourself from a possible bad result by taking
-              advantage of the advice given.
+              Share all your positive or negative experiences with individuals, products, companies, hotels, restaurants, or any other entities that come to mind. After a while, start giving recommendations to people and earn profits from it.
             </p>
           </div>
           <div class="accordion-item">
             <h5 class="accordion-title"><i class="ti ti-message-heart"></i> Discover Yourself</h5>
             <p class="accordion-content">
-              In Advicer, you can guide people by sharing your good or bad advice instantly for a product, business,
-              house, car, property, company, hotel, restaurant, food, doctor, engineer, or you can save yourself from
-              a possible bad result by taking advantage of the advice given. In Advicer, you can guide people by
-              sharing your good or bad advice instantly for a product, business, house, car, property, company, hotel,
-              restaurant, food, doctor, engineer, or you can save yourself from a possible bad result by taking
-              advantage of the advice given.
+              With the technology application Advicer, which knows people well, you will be able to see yourself through the eyes of your friends and be amazed by the results obtained.
             </p>
           </div>
           <div class="accordion-item">
             <h5 class="accordion-title"><i class="ti ti-message-heart"></i> Have Fun</h5>
             <p class="accordion-content">
-              In Advicer, you can guide people by sharing your good or bad advice instantly for a product, business,
-              house, car, property, company, hotel, restaurant, food, doctor, engineer, or you can save yourself from
-              a possible bad result by taking advantage of the advice given. In Advicer, you can guide people by
-              sharing your good or bad advice instantly for a product, business, house, car, property, company, hotel,
-              restaurant, food, doctor, engineer, or you can save yourself from a possible bad result by taking
-              advantage of the advice given.
+              In the perfectly designed Advicer, you will have fun by asking questions and also acquire accurate information to make your life easier.
             </p>
           </div>
         </div>
@@ -107,7 +90,7 @@
       </div>
       <div class="col-12">
         <div class="swiper justify-content-end" id="features-carousel">
-          <div class="carousel-nav">
+          <div class="carousel-nav mb-4">
             <div class="carousel-prev"><i class="ti ti-arrow-narrow-left"></i></div>
             <div class="carousel-next"><i class="ti ti-arrow-narrow-right"></i></div>
           </div>
@@ -117,7 +100,6 @@
                 <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M26 26H66M26 46H56M51 71L26 86V71H16C12.0218 71 8.20644 69.4196 5.3934 66.6066C2.58035 63.7936 1 59.9782 1 56V16C1 12.0218 2.58035 8.20644 5.3934 5.3934C8.20644 2.58035 12.0218 1 16 1H76C79.9782 1 83.7936 2.58035 86.6066 5.3934C89.4196 8.20644 91 12.0218 91 16V43.5M81 61L71 76H91L81 91" stroke="#375BDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-
                 <h6 class="title">Express Knowledge Network</h6>
                 <p class="text">
                   Advicer is an advice network application that facilitates your life and enables you to access
@@ -127,47 +109,79 @@
             </div>
             <div class="swiper-slide">
               <div class="icony-card">
-                <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M56 61V71C56 72.3261 55.4732 73.5979 54.5355 74.5355C53.5979 75.4732 52.3261 76 51 76H16L1 91V41C1 39.6739 1.52678 38.4021 2.46447 37.4645C3.40215 36.5268 4.67392 36 6 36H16M91 56L76 41H41C39.6739 41 38.4021 40.4732 37.4645 39.5355C36.5268 38.5979 36 37.3261 36 36V6C36 4.67392 36.5268 3.40215 37.4645 2.46447C38.4021 1.52678 39.6739 1 41 1H86C87.3261 1 88.5979 1.52678 89.5355 2.46447C90.4732 3.40215 91 4.67392 91 6V56Z" stroke="#375BDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-compass" width="100" height="100" viewBox="0 0 24 24" stroke-width=".5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M8 16l2 -6l6 -2l-2 6l-6 2" />
+                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                  <path d="M12 3l0 2" />
+                  <path d="M12 19l0 2" />
+                  <path d="M3 12l2 0" />
+                  <path d="M19 12l2 0" />
                 </svg>
-
-                <h6 class="title">Express Knowledge Network</h6>
+                <h6 class="title">Connect & Discover Efficiently</h6>
                 <p class="text">
-                  Advicer is an advice network application that facilitates your life and enables you to access
-                  information in the shortest possible time.
+                  With Advicer, you get the opportunity to get to know new people or people you want to know without wasting time, getting to know them in all aspects.
                 </p>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="icony-card">
-                <svg width="97" height="92" viewBox="0 0 97 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M26 26H66M26 46H48.5M37.625 79.025L26 86V71H16C12.0218 71 8.20644 69.4196 5.3934 66.6066C2.58035 63.7936 1 59.9782 1 56V16C1 12.0218 2.58035 8.20644 5.3934 5.3934C8.20644 2.58035 12.0218 1 16 1H76C79.9782 1 83.7936 2.58035 86.6066 5.3934C89.4196 8.20644 91 12.0218 91 16V38.5M75 85.085L64.14 90.775C63.8177 90.9428 63.4551 91.0176 63.0928 90.9912C62.7304 90.9649 62.3825 90.8383 62.0879 90.6256C61.7933 90.413 61.5636 90.1227 61.4245 89.787C61.2854 89.4514 61.2423 89.0837 61.3 88.725L63.375 76.67L54.59 68.135C54.3278 67.8815 54.1421 67.5594 54.0542 67.2055C53.9663 66.8515 53.9796 66.48 54.0928 66.1333C54.2059 65.7865 54.4143 65.4786 54.694 65.2447C54.9738 65.0107 55.3137 64.8601 55.675 64.81L67.815 63.05L73.245 52.085C73.4074 51.7584 73.6577 51.4837 73.9677 51.2916C74.2778 51.0995 74.6352 50.9977 75 50.9977C75.3647 50.9977 75.7222 51.0995 76.0322 51.2916C76.3423 51.4837 76.5926 51.7584 76.755 52.085L82.185 63.05L94.325 64.81C94.6852 64.8618 95.0237 65.0134 95.3022 65.2476C95.5808 65.4818 95.7882 65.7893 95.9011 66.1352C96.014 66.4812 96.0278 66.8518 95.941 67.2052C95.8542 67.5587 95.6703 67.8807 95.41 68.135L86.625 76.67L88.695 88.72C88.7571 89.0794 88.7172 89.4489 88.5799 89.7867C88.4425 90.1245 88.2132 90.4171 87.9179 90.6311C87.6227 90.8451 87.2733 90.972 86.9095 90.9975C86.5458 91.0229 86.1821 90.9459 85.86 90.775L75 85.085Z" stroke="#375BDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-affiliate" width="100" height="100" viewBox="0 0 24 24" stroke-width=".5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
+                  <path d="M11.683 12.317l5.759 -5.759" />
+                  <path d="M5.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+                  <path d="M18.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+                  <path d="M18.5 18.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+                  <path d="M8.5 15.5m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
                 </svg>
-
-                <h6 class="title">Express Knowledge Network</h6>
+                <h6 class="title">Expertise Sharing Hub</h6>
                 <p class="text">
-                  Advicer is an advice network application that facilitates your life and enables you to access
-                  information in the shortest possible time.
+                  In Advicer, you can share your advice on any topic that comes to mind. For example, share your expertise in cars, expand your audience, and gain profit.
                 </p>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="icony-card">
-                <i class="ti ti-message-2-bolt icon"></i>
-                <h6 class="title">Express Knowledge Network</h6>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brain" width="100" height="100" viewBox="0 0 24 24" stroke-width=".5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8" />
+                  <path d="M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8" />
+                  <path d="M17.5 16a3.5 3.5 0 0 0 0 -7h-.5" />
+                  <path d="M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0" />
+                  <path d="M6.5 16a3.5 3.5 0 0 1 0 -7h.5" />
+                  <path d="M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10" />
+                </svg>
+                <h6 class="title">Personalized Learning Platform</h6>
                 <p class="text">
-                  Advicer is an advice network application that facilitates your life and enables you to access
-                  information in the shortest possible time.
+                  Advicer helps you learn new skills and improve your existing ones by connecting you with experts who can offer you personalized advice and feedback. Whether you want to learn a new language, play an instrument, or master a software, Advicer has the right mentor for you.
                 </p>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="icony-card">
-                <i class="ti ti-message-2-bolt icon"></i>
-                <h6 class="title">Express Knowledge Network</h6>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-tilt" width="100" height="100" viewBox="0 0 24 24" stroke-width=".5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M14.5 6.5l3 -2.9a2.05 2.05 0 0 1 2.9 2.9l-2.9 3l2.5 7.5l-2.5 2.55l-3.5 -6.55l-3 3v3l-2 2l-1.5 -4.5l-4.5 -1.5l2 -2h3l3 -3l-6.5 -3.5l2.5 -2.5l7.5 2.5z" />
+                </svg>
+                <h6 class="title">Travel Planning Assistant</h6>
                 <p class="text">
-                  Advicer is an advice network application that facilitates your life and enables you to access
-                  information in the shortest possible time.
+                  Advicer makes your travel planning easier and more enjoyable by providing you with tips and recommendations from locals and travelers who have been to your destination. You can ask them anything from the best places to visit, eat, and stay, to the culture, customs, and safety of the area.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="icony-card">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-up" width="100" height="100" viewBox="0 0 24 24" stroke-width=".5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                  <path d="M6 21v-2a4 4 0 0 1 4 -4h4" />
+                  <path d="M19 22v-6" />
+                  <path d="M22 19l-3 -3l-3 3" />
+                </svg>
+                <h6 class="title">Career Development Resource</h6>
+                <p class="text">
+                  Advicer helps you advance your career by offering you advice from professionals who have achieved success in your field of interest. You can get insights on how to create a resume, prepare for an interview, negotiate a salary, or start your own business.
                 </p>
               </div>
             </div>
@@ -193,46 +207,33 @@
       <div class="col-xl-5 col-12 offset-xl-1 mt-5">
         <div class="revealing-card">
           <h6 class="title">How to ask question in Advicer?</h6>
-          <p class="text">Advicer has two types of question models for individuals. You can learn what you are curious
-            about by
-            asking draft or private questions to the friends of the person you want to have information about.
-            Moreover, both the person asking the question and the person answering will remain completely anonymous
-            and will not be visible to anyone. You
+          <p class="text">
+            Advicer has two types of question models for individuals. You can learn what you are curious about by asking draft or private questions to the friends of the person you want to have information about. Moreover, both the person asking the question and the person answering will remain completely anonymous and will not be visible to anyone. You can ask questions about anyone, whether they are your friend or not. Additionally, you can share on your own page and ask people to answer your questions. When you add tags related to your questions, people experienced in that subject can view and answer your questions. In general sharing questions, the person asking and the person answering will be visible to everyone. Don’t forget to reward helpful answers by liking or rating them 🙂
+
             <span class="overlay"></span>
           </p>
           <button>+ Click for more</button>
         </div>
         <div class="revealing-card">
-          <h6 class="title">How to ask question in Advicer1?</h6>
-          <p class="text">Advicer has two types of question models for individuals. You can learn what you are curious
-            about by asking draft or private questions to the friends of the person you want to have information about.
-            Moreover, both the person asking the question and the person answering will remain completely anonymous
-            and will not be visible to anyone. You Advicer has two types of question models for individuals. You can learn what you are curious
-            about by asking draft or private questions to the friends of the person you want to have information about.
-            Moreover, both the person asking the question and the person answering will remain completely anonymous
-            and will not be visible to anyone. You
+          <h6 class="title">Draft Question</h6>
+          <p class="text">
+            These are prepared ready-made questions by the Advicer team under five main topic headings. These topic headings are Love, Family, Friendship, Work, and Trust. The question you ask will be sent to the person’s friends. Each of their friends selects one answer option. Within 24 hours at the latest, you will receive a report on that question. The report will only display percentages. The identities of the respondents and their answers will not be visible.
             <span class="overlay"></span>
           </p>
           <button>+ Click for more</button>
         </div>
         <div class="revealing-card">
-          <h6 class="title">How to ask question in Advicer?</h6>
-          <p class="text">Advicer has two types of question models for individuals. You can learn what you are curious
-            about by
-            asking draft or private questions to the friends of the person you want to have information about.
-            Moreover, both the person asking the question and the person answering will remain completely anonymous
-            and will not be visible to anyone. You
+          <h6 class="title">Private Question</h6>
+          <p class="text">
+            In this option, when you select the custom question for the person, you write your own question. Your custom question will be sent to the person without revealing your identity, and their approval will be obtained. If the person approves, the question will be sent to their friends, answered, and you will receive a notification. If the person does not approve, you will receive a notification stating that the question was not approved. In this question model as well, the asker and the respondents remain completely anonymous. The parties cannot see each other.
             <span class="overlay"></span>
           </p>
           <button>+ Click for more</button>
         </div>
         <div class="revealing-card">
-          <h6 class="title">How to ask question in Advicer?</h6>
-          <p class="text">Advicer has two types of question models for individuals. You can learn what you are curious
-            about by
-            asking draft or private questions to the friends of the person you want to have information about.
-            Moreover, both the person asking the question and the person answering will remain completely anonymous
-            and will not be visible to anyone. You
+          <h6 class="title">Important Note</h6>
+          <p class="text">
+            To be able to ask a question on Advicer, both you and the person you want to ask a question to should have at least 10 people on your friend lists.
             <span class="overlay"></span>
           </p>
           <button>+ Click for more</button>
@@ -248,8 +249,7 @@
       <div class="col-xl-8 col-12 offset-xl-2">
         <h1 class="section-title">Download Advicer now</h1>
         <p class="excerpt">
-          Discover a world of knowledge and make meaningful connections with the Advicer app. Download now from the
-          App Store or Google Play Store and unlock a wealth of expertise at your fingertips. Join a vibrant community
+          Discover a world of knowledge and make meaningful connections with the Advicer app. Join a vibrant community
           of passionate individuals, share your wisdom, and seek valuable advice to enhance your personal and
           professional life.
         </p>

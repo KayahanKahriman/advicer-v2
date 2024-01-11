@@ -70,7 +70,7 @@ window.onload = function () {
 
   anime({
     targets: ".stage",
-    d: [{ value: shapes[0].d }],
+    d: [{ value: shapes[0].d, value: shapes[1].d }],
     duration: 5000,
     direction: "alternate",
     autoplay: true,
