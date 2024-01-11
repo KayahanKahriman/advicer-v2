@@ -1,11 +1,27 @@
 @import "./global";
 
+.home {
+  header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+}
+
 header {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 2;
+  position: relative;
+}
+
+#breadcrumbs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg-accent);
+  margin-block: 20px 0;
+  padding: 8px;
+  font-size: 12px;
 }
 
 #hero {
