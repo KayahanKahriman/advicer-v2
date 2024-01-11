@@ -32,6 +32,17 @@ add_image_size('medium', 250, '', true);
 add_image_size('small', 120, '', true);
 add_image_size('product-thumbnail', 300, 300, true);
 
+
+/**
+ * Register menus
+ */
+
+register_nav_menus(array(
+  'main-nav' => esc_html__('Main Nav', 'yoda'),
+  'footer-nav-1' => esc_html__('Footer Nav 1', 'yoda'),
+  'footer-nav-2' => esc_html__('Footer Nav 2', 'yoda'),
+));
+
 /**
  * Template functions and definitions
  */
