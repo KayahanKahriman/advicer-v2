@@ -22,9 +22,9 @@
           <p id="hero-text">Ask questions, share your experiences, expolore yourself, earn profit</p>
           <img id="hero-image" class="d-none d-xl-block" src="<?php echo IMAGE_DIR; ?>/hero-img.png" alt="Advicer">
           <div id="hero-buttons">
-            <a class="button white-button jumbo-button" href="#"><i class="ti ti-brand-google-play"></i>Google Play
+            <a class="button white-button" href="#"><i class="ti ti-brand-google-play"></i>Google Play
               Store</a>
-            <a class="button white-button jumbo-button" href="#"><i class="ti ti-brand-apple"></i>Apple App Store</a>
+            <a class="button white-button" href="#"><i class="ti ti-brand-apple"></i>Apple App Store</a>
           </div>
         </div>
       </div>

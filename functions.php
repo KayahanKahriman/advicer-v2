@@ -127,7 +127,6 @@ function yoda_scripts()
   wp_enqueue_style('swiper',  '//cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css');
   wp_enqueue_style('flexgrid', CSS_DIR . '/flexgrid/flexgrid.css');
   wp_enqueue_style('style', CSS_DIR . '/style.css');
-  wp_enqueue_script('anime',  '//cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js', array(), '3.2.2', true);
   wp_enqueue_script('swiper',  '//cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js', array(), '11.0.5', true);
   wp_enqueue_script('global', JS_DIR . '/global.js', array(), '1.0.0', true);
 
