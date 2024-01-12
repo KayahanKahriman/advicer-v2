@@ -154,7 +154,7 @@
                 </svg>
                 <h6 class="title">Personalized Learning Platform</h6>
                 <p class="text">
-                  Advicer helps you learn new skills and improve your existing ones by connecting you with experts who can offer you personalized advice and feedback. Whether you want to learn a new language, play an instrument, or master a software, Advicer has the right mentor for you.
+                  Advicer helps you learn new skills and improve your existing ones by connecting you with experts who can offer you personalized advice and feedback.
                 </p>
               </div>
             </div>
@@ -166,7 +166,7 @@
                 </svg>
                 <h6 class="title">Travel Planning Assistant</h6>
                 <p class="text">
-                  Advicer makes your travel planning easier and more enjoyable by providing you with tips and recommendations from locals and travelers who have been to your destination. You can ask them anything from the best places to visit, eat, and stay, to the culture, customs, and safety of the area.
+                  Advicer makes your travel planning easier and more enjoyable by providing you with tips and recommendations from locals and travelers who have been to your destination.
                 </p>
               </div>
             </div>
@@ -181,7 +181,7 @@
                 </svg>
                 <h6 class="title">Career Development Resource</h6>
                 <p class="text">
-                  Advicer helps you advance your career by offering you advice from professionals who have achieved success in your field of interest. You can get insights on how to create a resume, prepare for an interview, negotiate a salary, or start your own business.
+                  Advicer helps you advance your career by offering you advice from professionals who have achieved success in your field of interest.
                 </p>
               </div>
             </div>
