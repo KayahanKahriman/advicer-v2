@@ -14,7 +14,7 @@
 
   <header class="py-4">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-12 col-xl-2">
           <a href="<?php echo home_url() ?>">
             <svg id="logo" width="134" height="32" viewBox="0 0 134 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,10 +38,11 @@
     </div>
   </header>
   <?php if (!is_home() && !is_front_page()) { ?>
-    <section class="breadcrumbs-wrapper">
+    <section id="page-title-wrapper" class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-12">
+            <?php the_title('<h1 class="page-title">', '</h1>'); ?>
             <?php custom_breadcrumbs(); ?>
           </div>
         </div>
