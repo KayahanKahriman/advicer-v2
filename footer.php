@@ -1,3 +1,24 @@
+<hr class="section-margin" />
+<section id="download" class="text-center py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 col-12 offset-xl-2">
+        <h1 class="section-title">Download Advicer now</h1>
+        <p class="excerpt">
+          Discover a world of knowledge and make meaningful connections with the Advicer app. Join a vibrant community
+          of passionate individuals, share your wisdom, and seek valuable advice to enhance your personal and
+          professional life.
+        </p>
+        <div class="download-buttons">
+          <a class="button white-button jumbo-button" href="#"><i class="ti ti-brand-google-play"></i>Google Play
+            Store</a>
+          <a class="button white-button jumbo-button" href="#"><i class="ti ti-brand-apple"></i>Apple App Store</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer class="py-5">
   <div class="container">
     <div class="row">
@@ -46,6 +67,13 @@
     </div>
   </div>
 </footer>
+<div id="mobile-nav">
+  <div id="close-mobile-nav">
+    <span></span>
+    <span></span>
+  </div>
+  <?php wp_nav_menu(array('theme_location' => 'main-nav')); ?>
+</div>
 <?php wp_footer(); ?>
 </body>
 

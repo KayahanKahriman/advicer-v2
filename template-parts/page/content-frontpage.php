@@ -1,5 +1,5 @@
 <section id="hero">
-  <svg id="hero-svg" width=" 903" height="895" viewBox="0 0 903 895" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg id="hero-svg" width="100%" height="895" viewBox="0 0 903 895" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_f_463_151)">
       <path class="stage" d="M765 303C765 415.114 674.114 506 562 506C449.886 506 359 415.114 359 303C359 190.886 449.886 100 562 100C674.114 100 765 190.886 765 303Z" fill="#FFCFFD" fill-opacity="0.5" />
       <path class="stage" d="M803 592C803 704.114 712.114 795 600 795C487.886 795 397 704.114 397 592C397 479.886 487.886 389 600 389C712.114 389 803 479.886 803 592Z" fill="#FFD600" fill-opacity="0.1" />
@@ -202,7 +202,7 @@
         </p>
       </div>
       <div class="col-xl-6 col-12 mt-5">
-        <img src="<?php echo IMAGE_DIR; ?>/mockup.png" alt="">
+        <img class="img-responsive" src="<?php echo IMAGE_DIR; ?>/mockup.png" alt="">
       </div>
       <div class="col-xl-5 col-12 offset-xl-1 mt-5">
         <div class="revealing-card">
@@ -237,26 +237,6 @@
             <span class="overlay"></span>
           </p>
           <button>+ Click for more</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<hr class="section-margin" />
-<section id="download" class="text-center py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-8 col-12 offset-xl-2">
-        <h1 class="section-title">Download Advicer now</h1>
-        <p class="excerpt">
-          Discover a world of knowledge and make meaningful connections with the Advicer app. Join a vibrant community
-          of passionate individuals, share your wisdom, and seek valuable advice to enhance your personal and
-          professional life.
-        </p>
-        <div class="download-buttons">
-          <a class="button white-button jumbo-button" href="#"><i class="ti ti-brand-google-play"></i>Google Play
-            Store</a>
-          <a class="button white-button jumbo-button" href="#"><i class="ti ti-brand-apple"></i>Apple App Store</a>
         </div>
       </div>
     </div>
