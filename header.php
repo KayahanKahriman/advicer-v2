@@ -15,7 +15,7 @@
   <header class="py-4">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-12 col-xl-2">
+        <div class="col-6 col-xl-2">
           <a href="<?php echo home_url() ?>">
             <svg id="logo" width="134" height="32" viewBox="0 0 134 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g>
@@ -31,11 +31,18 @@
             </svg>
           </a>
         </div>
-        <div class="d-none d-md-flex justify-content-end col-xl-10">
-          <?php wp_nav_menu(array('container' => 'nav', 'menu_class' => 'd-flex justify-content-around', 'theme_location' => 'main-nav')); ?>
+        <div class="col-6 d-flex d-md-none justify-content-end">
+          <div id="nav-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+            </button>
+          </div>
+          <div class="d-none d-md-flex justify-content-end col-xl-10">
+            <?php wp_nav_menu(array('container' => 'nav', 'menu_class' => 'd-flex justify-content-around', 'theme_location' => 'main-nav')); ?>
+          </div>
         </div>
       </div>
-    </div>
   </header>
   <?php if (!is_home() && !is_front_page()) { ?>
     <section id="page-title-wrapper" class="py-5">

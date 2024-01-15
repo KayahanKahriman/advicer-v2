@@ -1,0 +1,140 @@
+.nav-opened {
+  padding-top: var(--menu-height);
+
+  #mobile-nav {
+    visibility: visible;
+    min-height: var(--menu-height);
+
+    &:after {
+      transform: scale(20);
+      border-top-right-radius: 0;
+      transition: all 0.7s ease-in-out;
+      top: 0;
+      right: 0;
+    }
+
+    #close-mobile-nav {
+      span {
+        transition: all 1s ease-in-out 0.5s;
+      }
+    }
+  }
+}
+
+#mobile-nav {
+  min-height: var(--menu-height);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  visibility: hidden;
+  padding: 2em;
+  display: grid;
+  place-items: center;
+  z-index: 9;
+  overflow: hidden;
+
+  &:after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    top: 1.5em;
+    right: 1em;
+    position: absolute;
+    transform: scale(0);
+    transition: all 0.7s ease-in-out;
+    transform-origin: top right;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--menu-bg);
+  }
+
+  #close-mobile-nav {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    z-index: 10;
+
+    > span {
+      position: absolute;
+      height: 2px;
+      width: 2rem;
+      background: black;
+      display: block;
+
+      &:first-of-type {
+        background-color: white;
+        transform: rotate(-45deg);
+      }
+      &:last-of-type {
+        background-color: white;
+        transform: rotate(45deg);
+      }
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+
+    a {
+      color: white;
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+
+    .has-sub-nav {
+      &:after {
+        content: "+";
+        position: absolute;
+        right: 1em;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &.sub-nav-open:after {
+        content: "-";
+      }
+    }
+
+    .sub-nav {
+      max-height: 0;
+      visibility: hidden;
+      overflow: hidden;
+      padding-left: 1em;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .sub-nav-open {
+      background-color: var(--primary-color-darker);
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+
+      + ul {
+        max-height: 300px;
+        visibility: visible;
+        background-color: var(--primary-color-darker);
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
+      }
+    }
+
+    > li {
+      > a {
+        display: block;
+        padding: 12px;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+
+    > li {
+      > a {
+        font-size: 0.9em;
+      }
+    }
+  }
+}

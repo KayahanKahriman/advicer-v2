@@ -12,6 +12,15 @@
 
 header {
   position: relative;
+  #nav-toggler {
+    span {
+      width: 25px;
+      height: 2px;
+      background-color: var(--primary-color);
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
 }
 
 #page-title-wrapper {
@@ -224,6 +233,7 @@ header {
   justify-content: center;
   gap: 20px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 footer {
