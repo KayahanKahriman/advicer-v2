@@ -31,14 +31,14 @@
             </svg>
           </a>
         </div>
-        <div class="col-6 d-flex d-md-none justify-content-end">
-          <div id="nav-toggler">
+        <div class="col-6 col-xl-10 d-flex justify-content-end">
+          <div id="nav-toggler" class="d-block d-md-none">
             <span></span>
             <span></span>
             <span></span>
             </button>
           </div>
-          <div class="d-none d-md-flex justify-content-end col-xl-10">
+          <div class="d-none d-md-flex justify-content-end col-12">
             <?php wp_nav_menu(array('container' => 'nav', 'menu_class' => 'd-flex justify-content-around', 'theme_location' => 'main-nav')); ?>
           </div>
         </div>
